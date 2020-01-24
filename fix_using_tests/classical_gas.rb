@@ -11,8 +11,8 @@ class GasStation
     @unleaded_price = unleaded_price
   end
   
-  def unleaded_price
-    unleaded_price
+  def unleaded_price(price)
+    unleaded_price = price
   end
 
 end
